@@ -53,6 +53,8 @@ Applies the map method to the underlying array and returns the result.
 
 	$ducks = $foos->filter("new Duck(@@['name'], @@['age'])");
 
+Note that `$ducks` is still a `BArray` instance. `$ducks->to_array()` returns the array of `Duck` instances.
+
 ### `select_many($predicate)` / `bind($predicate)`
 Applies the filter predicate and returns the flattened result.
 
