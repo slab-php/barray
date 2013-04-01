@@ -5,6 +5,8 @@ Lets face it. PHP sucks. We wouldn't be here if we could use Ruby, Python, C#, o
 
 BArray is included in [Slab](https://github.com/slab-php/slab) but is being maintained as a separate project. It doesn't depend on Slab as it is a self contained project, but the intent is to eventually have its own unit tests and suite of examples.
 
+**Note** when the BArray class is updated it should be copied through to the Slab project.
+
 ## Use
 
 BArray is developed for PHP 5.2+ although it is only developed and tested on a PHP 5.4 installation. That said it doesn't support cool features like anonymous functions which would make things a whole lot easier, because realistically your ridiculously cheap shared web host is probably running a three year old version of PHP anyway.
